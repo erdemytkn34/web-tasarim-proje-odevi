@@ -1,4 +1,4 @@
 # web-tasarim-proje-odevi
-film öneri sitesi --
+bu site film öneri sitesidir  --
 Erdem Yılmaztekin
 25151513005
