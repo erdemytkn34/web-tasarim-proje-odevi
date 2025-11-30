@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #1e1e2f, #2f2f4f);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* BAŞLIKLAR */
+h1 {
+    background-color: #111;
+    margin: 0;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #ffcc00;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+/* MARK */
+mark {
+    background-color: #ffcc00;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* LİSTE */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* LİNKLER */
+a {
+    text-decoration: none;
+    color: #00c3ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* TABLO */
+table {
+    margin: auto;
+    border-spacing: 20px;
+}
+
+/* FİLM KUTULARI */
+td {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+td {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #000;
+}
+
+
+/* RESİMLER */
+img {
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+i {
+    color: #ffcc00;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* NAV LINK */
+nav a {
+    color: #ffcc00;
+    font-size: 16px;
+    letter-spacing: 1px; 
+}
+
+/* HOVER */
+nav a:hover {
+    color: #00c3ff;
+}
+
+
+/* LİSTE ÖZELLİKLER */
+.ozellikler {
+    text-align: left;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.ozellikler li {
+    margin: 8px 0;
+}
+
+
+/* ANA SAYFA */
+
+.anasayfa-icerik {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+.vitrin {
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.kartlar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kart {
+    background-color: #111;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #000;
+}
+
+.kart h3 {
+    color: #ffcc00;
+}
+
+.kart span {
+    display: block;
+    margin-top: 10px;
+    color: #00c3ff;
+}
